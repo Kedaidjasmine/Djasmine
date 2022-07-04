@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.left-container {
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: red;
+    position:fixed;
+    
+}
+
+.photo-contact {
+    position: absolute;
+    top: 100px;
+    text-align:  center;
+}
+
+.photo {
+    width: 50%;
+    border-radius: 30%;
+}
+
+.Email {
+    width: 50%;
+    background-color: white;
+    border-radius:  12px;
+    margin-bottom: 12px;
+    font-size: 1,1rem;
+    font-weight: bold;
+    padding: 5%;
+
+}
+
+.Email:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+.right-container {
+    left: 400px;
+    position: absolute;
+}
+
+.top-bar {
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.title {
+    font-style: italic;
+    font-size: 1,2rem;
+
+    
+}
+.list.menu {
+    float: right;
+    padding-right: 50px;
+}
+
+.menu {
+    font-size: 1,1rem;
+    padding: 0 15px;
+}
+#profile {
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+#about {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+#VisiMisi {
+    padding-top:20px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
+#footer {
+    padding-top: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+p, li {
+    line-height: 200%;
+}
+
+a {
+    color: inherit
+}
+
+.medsos {
+    padding: 5px 0 ;
+}
+
+.medsos li {
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+    
+}
+
+.medsos {
+    width: 80 %;
+    margin:0 auto;
+}
+
+header{
+    border: 1px solid;
+    color: black;
+}
+
+.banner {
+    height: 30vh;
+    border: 1px solid;
+    background-image: url(djasminee.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+.banner h2 {
+    color: white;
+    padding: 20px 25px;
+    border: 3px solid;
+}
+
+#footer {
+    padding: 1px 0;
+    background-color: black;
+    color: white;
+}
+
